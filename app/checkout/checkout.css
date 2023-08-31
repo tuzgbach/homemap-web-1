@@ -1,0 +1,199 @@
+/* Trong tệp checkout.css hoặc thẻ style của bạn */
+
+#CheckoutPage {
+  max-width: 1100px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif; /* Font chữ thuần Việt hơn */
+  color: #333; /* Màu chữ tiếng Việt */
+}
+
+#CheckoutPage .text-2xl {
+  font-size: 14px; /* Cỡ chữ lớn hơn */
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#CheckoutPage .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#CheckoutPage .checkout-content {
+  width: 65%;
+}
+
+#CheckoutPage .bg-white {
+  background-color: #fff; /* Màu nền trắng */
+  border: 1px solid #ddd; /* Viền xám nhạt */
+  border-radius: 4px; /* Bo góc */
+  padding: 16px;
+}
+
+#CheckoutPage .text-xl {
+  font-size: 20px; /* Cỡ chữ lớn hơn */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#CheckoutPage .text-sm {
+  font-size: 14px; /* Cỡ chữ nhỏ hơn */
+}
+
+#CheckoutPage #total-order {
+  margin-top: 20px;
+  font-size: 14px; /* Cỡ chữ lớn hơn */
+  font-weight: bold;
+}
+
+#CheckoutPage #total-order .total-text {
+  flex: 1;
+}
+
+#CheckoutPage #total-order .total-price {
+  text-align: right;
+  margin-left: 20px;
+  min-width: 100px; /* Đảm bảo không bị tràn khi giá trị lớn */
+  color: #ff5555; /* Màu chữ đỏ */
+}
+
+#CheckoutPage #PlaceOrder {
+  width: 118%;
+  max-width: 430px;
+  border: 1px solid #ddd;
+  padding: 1px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#CheckoutPage #card-element {
+  width: 108%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  padding: 1px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#CheckoutPage #card-error {
+  color: #ff5555; /* Màu chữ đỏ */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px;
+}
+
+#CheckoutPage button[type="submit"] {
+  background-color: #ff5555;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 98px;
+}
+
+#CheckoutPage button[type="submit"]:hover {
+  background-color: #ff3333; /* Màu nền đỏ sáng hơn khi hover */
+}
+
+#CheckoutPage img {
+  width: 150px;
+  margin-bottom: 2px;
+}
+
+#CheckoutPage .font-light {
+  font-weight: 800; /* Chữ mỏng hơn */
+}
+
+/* Trong tệp checkout.css hoặc thẻ style của bạn */
+
+#PlaceOrder {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.CheckoutSummary {
+  display: flex;
+  justify-content: space-between;
+  align-items: unsafe;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.left-column {
+  border-right: 1px solid #ddd;
+  padding: 10px;
+}
+
+.summary-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+  text-align: center;
+  background-color: #f2f4f5;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px;
+  color: #555;
+  font-size: 14px;
+}
+
+.border-divider {
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-2xl {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#card-error {
+  color: #ff0000;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.flex.items-center.p-4.justify-center.gap-2.border-t {
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+img {
+  width: 50px;
+}
+
+.font-light {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+
+

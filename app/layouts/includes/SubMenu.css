@@ -1,0 +1,24 @@
+/* SubMenu.css */
+
+/* Hiệu ứng cho biểu tượng menu */
+.menu-icon {
+  font-size: 24px; /* Kích thước biểu tượng menu */
+  color: #333; /* Màu của biểu tượng menu */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out; /* Hiệu ứng scale */
+}
+
+.menu-icon:hover {
+  transform: scale(1.1); /* Hiệu ứng khi hover */
+}
+
+/* Hiệu ứng cho các mục menu */
+#TopMenuLeft li {
+  color: #333; /* Màu chữ mặc định */
+  transition: color 0.3s ease-in-out; /* Hiệu ứng màu chữ */
+}
+
+#TopMenuLeft li:hover {
+  color: #000; /* Màu chữ khi hover */
+  text-decoration: none; /* Loại bỏ dấu gạch dưới chân */
+}

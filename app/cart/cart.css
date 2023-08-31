@@ -1,0 +1,102 @@
+/* Trong tệp CSS của bạn hoặc thẻ style của bạn */
+.euro-style {
+  background-color: #ffffff; /* Màu nền trắng */
+  color: #333; /* Màu chữ tiếng Việt */
+  border-radius: 8px; /* Bo góc */
+  padding: 16px; /* Khoảng cách bên trong */
+}
+
+.euro-style h2 {
+  font-size: 22px; /* Cỡ chữ cho tiêu đề */
+  margin-bottom: 12px; /* Khoảng cách dưới tiêu đề */
+}
+
+.euro-style .product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.euro-style .product-image {
+  max-width: 80px; /* Độ rộng tối đa của hình ảnh sản phẩm */
+  margin-right: 12px; /* Khoảng cách giữa hình ảnh và thông tin sản phẩm */
+}
+
+.euro-style .product-title {
+  font-weight: bold; /* Đậm cho tiêu đề sản phẩm */
+}
+
+.euro-style .product-price {
+  font-weight: bold; /* Đậm cho giá sản phẩm */
+}
+
+/* Trong tệp CSS của bạn hoặc thẻ style của bạn */
+#GoToCheckout {
+  border: 0.25px solid #d3d3d3; /* Viền xám nhạt */
+  border-radius: 1px; /* Bo góc */
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 16px; /* Khoảng cách bên ngoài */
+  padding: 16px; /* Khoảng cách bên trong */
+  background-color: #ffffff; /* Màu nền trắng */
+}
+
+/* Trong tệp CSS của bạn hoặc thẻ style của bạn */
+#GoToCheckout button {
+  background-color: #ff5555; /* Màu nền nút thanh toán */
+  color: #fff; /* Màu chữ */
+  font-weight: bold;
+  border: none;
+  padding: 8px 16px; /* Kích thước bên trong nút */
+  border-radius: 4px; /* Bo góc */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Hiệu ứng màu nền khi hover */
+  font-size: 14px; /* Cỡ chữ */
+}
+
+#GoToCheckout button:hover {
+  background-color: #ff3333; /* Màu nền thay đổi khi hover */
+}
+
+#GoToCheckout .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#GoToCheckout .mt-4 {
+  margin-top: 16px; /* Khoảng cách từ phần tử trên cùng */
+}
+
+#GoToCheckout .border-b {
+  border-bottom: 1px solid #ccc; /* Đường viền dưới */
+}
+
+#GoToCheckout .text-lg {
+  font-size: 18px; /* Cỡ chữ cho tổng đơn hàng */
+  font-weight: bold;
+}
+
+/* Trong tệp CSS của bạn hoặc thẻ style của bạn */
+#total-order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333; /* Màu chữ tiếng Việt */
+}
+
+#total-order .total-text {
+  flex: 1;
+}
+
+#total-order .total-price {
+  text-align: right;
+  margin-left: 20px;
+  min-width: 100px; /* Đảm bảo không bị tràn khi giá trị lớn */
+  color: #ff5555; /* Màu chữ đỏ */
+}
